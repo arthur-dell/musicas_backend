@@ -26,7 +26,9 @@ app.get("/", (request, response) => {
         }
     })
  })
+
 app.listen(3000, () =>{
     console.log("Servidor online");
 });
+
 export default app
